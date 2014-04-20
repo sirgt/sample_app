@@ -5,11 +5,12 @@ ruby '2.1.1'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
+gem 'pg'
 
-group :development do
-  gem 'sqlite3'
+group :development, :test do
   gem 'rspec-rails'
 end
+
 
 #group :test do
   gem 'selenium-webdriver'
@@ -54,6 +55,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
