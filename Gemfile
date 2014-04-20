@@ -11,10 +11,10 @@ group :development do
   gem 'rspec-rails'
 end
 
-group :test do
+#group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
-end
+#end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
