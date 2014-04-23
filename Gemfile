@@ -5,10 +5,13 @@ ruby '2.1.1'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+
 #gem 'pg'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'guard-rspec'
+  gem 'guard-spork'
 end
 
 
